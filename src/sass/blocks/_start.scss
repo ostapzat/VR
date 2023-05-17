@@ -1,0 +1,82 @@
+.start {
+  width: 100%;
+  height: 730px;
+  background: url("../../img/Group 24.png") center center/cover no-repeat;
+
+  &__logo {
+    padding-right: 250px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #ffffff;
+  }
+  .nav {
+    a {
+      text-decoration: none;
+      color: #ffffff;
+      :hover {
+        text-decoration: none;
+        color: #ffff;
+      }
+    }
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    &__exit {
+      padding-left: 130px;
+    }
+    button {
+      width: 170px;
+      height: 35px;
+      background: #ff1da3;
+      border-radius: 20px;
+      border: none;
+      top: 50px;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 22px;
+      text-align: center;
+      color: #ffffff;
+    }
+  }
+  &__header {
+    font-weight: 700;
+    font-size: 75px;
+    width: 613px;
+    color: #ffffff;
+    margin-top: 60px;
+  }
+  &__subheader {
+    width: 467px;
+    font-weight: 500;
+    font-size: 22px;
+    color: #ffffff;
+    margin-top: 33px;
+  }
+  &__button-learn {
+    width: 170px;
+    height: 40px;
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0%);
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 35px;
+
+  }
+  &__button-watch {
+    width: 170px;
+    height: 40px;
+    background: #ff1da3;
+    border-radius: 20px;
+    border: none;
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 35px;
+  }
+}

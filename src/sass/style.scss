@@ -1,12 +1,16 @@
-@import 'base/variables';
+@import "base/variables";
 * {
-    font-family: 'Museo Sans Cyrl', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
+
 .container {
-    max-width: 950px;
-    margin: 0 auto;
+  max-width: 950px;
+  margin: 0 auto;
 }
 
-@import 'base/variables';
+@import "base/variables";
 
-@import 'base/mixins';
+@import "blocks/start";
+@import "blocks/story";
+@import 'blocks/fortes';
+@import "base/mixins";

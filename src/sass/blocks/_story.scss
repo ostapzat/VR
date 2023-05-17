@@ -1,0 +1,56 @@
+.story {
+  .story__img {
+    position: relative;
+    width: 800px;
+    height: 450px;
+    top: 20px;
+    border-radius: 30px;
+  }
+
+  &__header {
+    font-weight: 600;
+    font-size: 45px;
+    display: flex;
+    align-items: center;
+
+    color: #192138;
+    width: 1067px;
+    height: 74px;
+    margin-top: 30px;
+  }
+  .reality__header {
+    position: absolute;
+    width: 370px;
+    height: 57px;
+    left: 830px;
+    top: 1000px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 200%;
+    color: #ff1da3;
+    .polygon {
+      width: 18px;
+      height: 12px;
+      background: #ff1da3;
+      transform: rotate(90deg);
+    }
+  }
+  .reality__descr {
+    position: absolute;
+    width: 370px;
+    height: 309px;
+    left: 830px;
+    top: 1040px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 200%;
+    color: #192138;
+  }
+  .logos {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    top: 30px;
+    padding-bottom: 30px;
+  }
+}
