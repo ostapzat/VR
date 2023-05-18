@@ -1,5 +1,6 @@
 .tool {
   height: 300px;
+  padding-bottom: 680px;
   &__second {
     &-header {
       position: absolute;
@@ -40,9 +41,16 @@
       height: 40px;
       left: 850px;
       top: 2900px;
-    
+
       border: 2px solid #ff1da3;
       border-radius: 20px;
+
+      font-weight: 700;
+      font-size: 15px;
+
+      text-align: center;
+
+      color: #ff1da3;
     }
   }
   &__split {
