@@ -1,0 +1,173 @@
+.world {
+  height: 1493px;
+  background: url("../../img/Holographic\ 3D\ shape\ 82\ 1.png") center center
+    no-repeat;
+  &__header {
+    font-weight: 600;
+    font-size: 45px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 60px;
+    color: #192138;
+  }
+  &__descr {
+    position: absolute;
+    width: 770px;
+    height: 67px;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 27px;
+    color: #636a81;
+  }
+  .texts {
+
+    position: absolute;
+    width: 100%;
+    height: 813px;
+    left: 0;
+    top: 4700px;
+    background: #241c6a;
+    &__first-header {
+      position: absolute;
+      width: 445px;
+      height: 45px;
+      left: 240px;
+      font-weight: 600;
+      font-size: 35px;
+      text-align: right;
+      padding-top: 137px;
+      color: #ffffff;
+    }
+    &__first-descr {
+      position: absolute;
+      width: 470px;
+      height: 128px;
+      left: 215px;
+      padding-top: 202px;
+
+      font-weight: 400;
+      font-size: 20px;
+      text-align: right;
+
+      color: #ffffff;
+
+      opacity: 0.5;
+    }
+    &__second-header {
+      position: absolute;
+      width: 445px;
+      height: 45px;
+      left: 915px;
+      padding-top: 137px;
+      font-weight: 600;
+      font-size: 35px;
+      color: #ffffff;
+    }
+    &__second-descr {
+      position: absolute;
+      width: 470px;
+      height: 128px;
+      left: 915px;
+
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 150%;
+      padding-top: 202px;
+      color: #ffffff;
+
+      opacity: 0.5;
+    }
+    &__third-header {
+      position: absolute;
+      height: 45px;
+      left: 215px;
+      padding-top: 498px;
+      font-weight: 600;
+      font-size: 35px;
+      text-align: right;
+      text-transform: capitalize;
+      color: #ffffff;
+    }
+    &__third-descr {
+      position: absolute;
+      width: 470px;
+      height: 128px;
+      left: 215px;
+      font-weight: 400;
+      font-size: 20px;
+      text-align: right;
+      padding-top: 563px;
+      color: #ffffff;
+
+      opacity: 0.5;
+    }
+    &__fourth-header {
+      position: absolute;
+      width: 445px;
+      height: 45px;
+      left: 915px;
+      font-weight: 600;
+      font-size: 35px;
+      padding-top: 498px;
+      text-transform: capitalize;
+
+      color: #ffffff;
+    }
+    &__fourth-descr {
+      position: absolute;
+      width: 470px;
+      height: 128px;
+      left: 915px;
+      padding-top: 563px;
+      font-weight: 400;
+      font-size: 20px;
+
+      color: #ffffff;
+
+      opacity: 0.5;
+    }
+    .firstsplit {
+      position: absolute;
+      width: 1px;
+      height: 213px;
+      left: 800px;
+      margin-top: 131px;
+
+      background: #636a81;
+      opacity: 0.6;
+    }
+    .secondsplit {
+      position: absolute;
+      width: 1px;
+      height: 213px;
+      left: 800px;
+      margin-top: 487px;
+      background: #636a81;
+      opacity: 0.6;
+    }
+    .thirdsplit {
+      position: absolute;
+      width: 1px;
+      height: 515px;
+      left: 450px;
+      margin-top: 160px;
+      background: #636a81;
+      opacity: 0.6;
+      transform: rotate(90deg);
+    }
+    .fourthsplit {
+      position: absolute;
+      width: 1px;
+      height: 515px;
+      left: 1130px;
+      margin-top: 160px;
+      background: #636a81;
+      opacity: 0.6;
+      transform: rotate(90deg);
+    }
+  }
+}
