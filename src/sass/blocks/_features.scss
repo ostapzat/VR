@@ -1,6 +1,6 @@
 .features {
   height: 480px;
-  background: url("../../img/Group 28 (1).png");
+  background: url("../../img/Group 28 (1).png") center center/cover no-repeat;
   &__header {
     font-weight: 600;
     font-size: 45px;
@@ -23,6 +23,5 @@
     text-align: center;
 
     color: #ffffff;
-
   }
 }

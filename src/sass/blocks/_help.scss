@@ -1,0 +1,130 @@
+.help {
+  height: 489px;
+  &__split {
+    position: absolute;
+    width: 1px;
+    height: 350px;
+    left: 750px;
+    top: 3500px;
+
+    background: #b9b9b9;
+  }
+  .sign {
+    position: absolute;
+    width: 372px;
+    height: 35px;
+    left: 900px;
+    top: 3840px;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+    /* text color 1 */
+
+    color: #192138;
+  }
+  &__first {
+    &-header {
+      font-weight: 600;
+      font-size: 35px;
+      color: #192138;
+      padding-top: 90px;
+    }
+  }
+  &__descr {
+    font-weight: 400;
+    font-size: 20px;
+    width: 335px;
+    padding-top: 20px;
+    color: #636a81;
+    margin-bottom: 14px;
+  }
+  a {
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+    color: #ff1da3;
+    :hover {
+      text-decoration: none;
+    }
+  }
+  .arrow {
+    display: inline-block;
+  }
+  &__notready {
+    position: absolute;
+    width: 568px;
+    height: 43px;
+    left: 900px;
+    top: 3550px;
+    font-weight: 600;
+    font-size: 25px;
+
+    text-transform: capitalize;
+
+    color: #ff1da3;
+  }
+  &__second-header {
+    position: absolute;
+    width: 568px;
+    height: 133px;
+    left: 900px;
+    top: 3600px;
+
+    font-weight: 600;
+    font-size: 45px;
+
+    text-transform: capitalize;
+    color: #192138;
+  }
+  form {
+    display: flex;
+    justify-content: right;
+    position: absolute;
+    width: 570px;
+    height: 55px;
+    left: 900px;
+    top: 3;
+    margin-top: 21px;
+    background: #ffffff;
+
+    /* Text color 2 */
+
+    border: 1px solid #636a81;
+    border-radius: 27.5px;
+    input {
+      display: flex;
+      justify-content: left;
+
+      font-weight: 400;
+      font-size: 16px;
+      color: #636a81;
+      border: none;
+      padding-top: 0;
+    }
+    input:focus {
+      outline: none;
+    }
+    button {
+      margin-left: 150px;
+      margin-top: 7px;
+      margin-right: 5px;
+
+      width: 170px;
+      height: 40px;
+      background: #ff1da3;
+      border-radius: 20px;
+      opacity: 100%;
+      border: none;
+      font-weight: 700;
+      font-size: 15px;
+      text-align: center;
+
+      color: #ffffff;
+    }
+  }
+}
