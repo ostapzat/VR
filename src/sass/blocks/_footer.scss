@@ -1,0 +1,172 @@
+.footer {
+  background: #192138;
+  padding-top: 50px;
+  padding-right: 150px;
+  &__text {
+    position: absolute;
+    width: 1200px;
+    font-weight: 400;
+    font-size: 16px;
+
+    text-align: right;
+
+    color: #636a81;
+    top: 8250px;
+    padding-left: 800px;
+  }
+  &__logo {
+    margin-top: 120px;
+  }
+  #items {
+    position: relative;
+    padding-left: 350px;
+    width: 197px;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 16px;
+    top: -30px;
+  }
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -155px;
+    padding-left: 700px;
+    list-style: none;
+    img {
+      height: 20px;
+    }
+    .icon {
+      position: relative;
+      background: #ffffff;
+      border-radius: 50%;
+      padding: 15px;
+      margin: 10px;
+      width: 20px;
+      height: 20px;
+      font-size: 18px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+      cursor: pointer;
+      transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+
+    .tooltip {
+      position: absolute;
+      top: 0;
+      font-size: 14px;
+      background: #ffffff;
+      color: #ffffff;
+      padding: 5px 8px;
+      border-radius: 5px;
+      box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+      opacity: 0;
+      pointer-events: none;
+      transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+      &::before {
+        position: absolute;
+        content: "";
+        height: 8px;
+        width: 8px;
+        background: #ffffff;
+        bottom: -3px;
+        left: 50%;
+        transform: translate(-50%) rotate(45deg);
+        transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      }
+    }
+
+    .icon:hover {
+      .tooltip {
+        top: -45px;
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+      }
+
+      span,
+      .tooltip {
+        text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+      }
+    }
+
+    .facebook:hover {
+      background: #1877f2;
+      color: #ffffff;
+
+      .tooltip {
+        background: #1877f2;
+        color: #ffffff;
+
+        &::before {
+          background: #1877f2;
+          color: #ffffff;
+        }
+      }
+    }
+
+    .twitter:hover {
+      background: #1da1f2;
+      color: #ffffff;
+
+      .tooltip {
+        background: #1da1f2;
+        color: #ffffff;
+
+        &::before {
+          background: #1da1f2;
+          color: #ffffff;
+        }
+      }
+    }
+
+    .instagram:hover {
+      background: #e4405f;
+      color: #ffffff;
+
+      .tooltip {
+        background: #e4405f;
+        color: #ffffff;
+
+        &::before {
+          background: #e4405f;
+          color: #ffffff;
+        }
+      }
+    }
+
+    .github:hover {
+      background: #333333;
+      color: #ffffff;
+
+      .tooltip {
+        background: #333333;
+        color: #ffffff;
+
+        &::before {
+          background: #333333;
+          color: #ffffff;
+        }
+      }
+    }
+
+    .youtube:hover {
+      background: #cd201f;
+      color: #ffffff;
+
+      .tooltip {
+        background: #cd201f;
+        color: #ffffff;
+
+        &::before {
+          background: #cd201f;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}
